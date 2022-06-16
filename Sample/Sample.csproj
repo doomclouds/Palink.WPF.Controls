@@ -1,0 +1,220 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ImageFrame\0000.png" />
+    <None Remove="ImageFrame\0001.png" />
+    <None Remove="ImageFrame\0002.png" />
+    <None Remove="ImageFrame\0003.png" />
+    <None Remove="ImageFrame\0004.png" />
+    <None Remove="ImageFrame\0005.png" />
+    <None Remove="ImageFrame\0006.png" />
+    <None Remove="ImageFrame\0007.png" />
+    <None Remove="ImageFrame\0008.png" />
+    <None Remove="ImageFrame\0009.png" />
+    <None Remove="ImageFrame\0010.png" />
+    <None Remove="ImageFrame\0011.png" />
+    <None Remove="ImageFrame\0012.png" />
+    <None Remove="ImageFrame\0013.png" />
+    <None Remove="ImageFrame\0014.png" />
+    <None Remove="ImageFrame\0015.png" />
+    <None Remove="ImageFrame\0016.png" />
+    <None Remove="ImageFrame\0017.png" />
+    <None Remove="ImageFrame\0018.png" />
+    <None Remove="ImageFrame\0019.png" />
+    <None Remove="ImageFrame\0020.png" />
+    <None Remove="ImageFrame\0021.png" />
+    <None Remove="ImageFrame\0022.png" />
+    <None Remove="ImageFrame\0023.png" />
+    <None Remove="ImageFrame\0024.png" />
+    <None Remove="ImageFrame\0025.png" />
+    <None Remove="ImageFrame\0026.png" />
+    <None Remove="ImageFrame\0027.png" />
+    <None Remove="ImageFrame\0028.png" />
+    <None Remove="ImageFrame\0029.png" />
+    <None Remove="ImageFrame\0030.png" />
+    <None Remove="ImageFrame\0031.png" />
+    <None Remove="ImageFrame\0032.png" />
+    <None Remove="ImageFrame\0033.png" />
+    <None Remove="ImageFrame\0034.png" />
+    <None Remove="ImageFrame\0035.png" />
+    <None Remove="ImageFrame\0036.png" />
+    <None Remove="ImageFrame\0037.png" />
+    <None Remove="ImageFrame\0038.png" />
+    <None Remove="ImageFrame\0039.png" />
+    <None Remove="ImageFrame\0040.png" />
+    <None Remove="ImageFrame\0041.png" />
+    <None Remove="ImageFrame\0042.png" />
+    <None Remove="ImageFrame\0043.png" />
+    <None Remove="ImageFrame\0044.png" />
+    <None Remove="ImageFrame\0045.png" />
+    <None Remove="ImageFrame\0046.png" />
+    <None Remove="ImageFrame\0047.png" />
+    <None Remove="ImageFrame\0048.png" />
+    <None Remove="ImageFrame\0049.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ImageFrame\0000.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0001.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0002.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0003.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0004.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0005.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0006.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0007.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0008.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0009.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0010.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0011.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0012.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0013.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0014.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0015.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0016.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0017.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0018.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0019.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0020.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0021.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0022.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0023.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0024.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0025.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0026.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0027.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0028.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0029.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0030.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0031.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0032.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0033.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0034.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0035.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0036.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0037.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0038.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0039.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0040.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0041.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0042.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0043.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0044.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0045.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0046.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0047.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0048.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImageFrame\0049.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Palink.WPF.Controls\Palink.WPF.Controls.csproj" />
+  </ItemGroup>
+
+</Project>

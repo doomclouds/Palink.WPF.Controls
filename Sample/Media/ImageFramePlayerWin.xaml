@@ -1,0 +1,24 @@
+﻿<Window x:Class="Sample.Media.ImageFramePlayerWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sample.Media"
+        xmlns:media="clr-namespace:Palink.WPF.Controls.Media;assembly=Palink.WPF.Controls"
+        mc:Ignorable="d"
+        Title="ImageFramePlayerWin" Height="450" Width="800">
+    <StackPanel>
+        <media:ImageFramePlayer x:Name="GifPlayer" Faulted="ImageFramePlayer_OnFaulted"
+                                Canceled="ImageFramePlayer_OnCanceled"
+                                Ended="ImageFramePlayer_OnEnded" Loop="True" Width="480" Height="300"
+                                Sources="{Binding Sources}">
+        </media:ImageFramePlayer>
+        <StackPanel Orientation="Horizontal" Margin="3">
+            <Button Content="播放" Click="Play_OnClick"></Button>
+            <Button Content="暂停" Click="Pause_OnClick" Margin="3 0 0 0"></Button>
+            <Button Content="停止" Click="Stop_OnClick" Margin="3 0 0 0"></Button>
+            <Button Content="随机设置位置" Click="RandomPos_OnClick" Margin="3 0 0 0"></Button>
+        </StackPanel>
+
+    </StackPanel>
+</Window>
